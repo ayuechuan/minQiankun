@@ -1,0 +1,20 @@
+{
+  "name": "miniqiankun",
+  "version": "1.0.0",
+  "description": "Understand the main implementation principles of microapplications",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "build": "tsc -p . && cpx package.json dist && cpx config.yaml dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.5",
+    "@types/node": "^18.7.11",
+    "typescript": "^4.7.4"
+  }
+}

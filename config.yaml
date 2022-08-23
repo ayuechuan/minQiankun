@@ -1,0 +1,11 @@
+apps :
+ - name: "autosheets"
+   entry: "//localhost:3000"
+   container: "#subapp"
+   activeRule: "/subapp/autosheets"
+ - name: "sheets"
+   entry: "//localhost:3001"
+   container: "#subapp"
+   activeRule: "/subapp/sheets"
+
+
